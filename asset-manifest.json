@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/embedbuilder/static/css/main.545bca7a.chunk.css",
-    "main.js": "/embedbuilder/static/js/main.d38647be.chunk.js",
-    "main.js.map": "/embedbuilder/static/js/main.d38647be.chunk.js.map",
+    "main.js": "/embedbuilder/static/js/main.c64efb14.chunk.js",
+    "main.js.map": "/embedbuilder/static/js/main.c64efb14.chunk.js.map",
     "runtime-main.js": "/embedbuilder/static/js/runtime-main.682d2db8.js",
     "runtime-main.js.map": "/embedbuilder/static/js/runtime-main.682d2db8.js.map",
     "static/js/2.3c2068e2.chunk.js": "/embedbuilder/static/js/2.3c2068e2.chunk.js",
     "static/js/2.3c2068e2.chunk.js.map": "/embedbuilder/static/js/2.3c2068e2.chunk.js.map",
     "index.html": "/embedbuilder/index.html",
-    "precache-manifest.45077329a14e7c6dd65280d59a1a3ed1.js": "/embedbuilder/precache-manifest.45077329a14e7c6dd65280d59a1a3ed1.js",
+    "precache-manifest.3ddbadc5a9d09aaf779e8ad69c2f6b6e.js": "/embedbuilder/precache-manifest.3ddbadc5a9d09aaf779e8ad69c2f6b6e.js",
     "service-worker.js": "/embedbuilder/service-worker.js",
     "static/css/main.545bca7a.chunk.css.map": "/embedbuilder/static/css/main.545bca7a.chunk.css.map",
     "static/js/2.3c2068e2.chunk.js.LICENSE.txt": "/embedbuilder/static/js/2.3c2068e2.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.682d2db8.js",
     "static/js/2.3c2068e2.chunk.js",
     "static/css/main.545bca7a.chunk.css",
-    "static/js/main.d38647be.chunk.js"
+    "static/js/main.c64efb14.chunk.js"
   ]
 }
