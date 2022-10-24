@@ -42,7 +42,7 @@ class Output extends React.Component {
           fieldInline = e.elements["field-".concat(i, ":inline")].checked;
         if (fieldName && fieldValue) {
           var field = "field: ".concat(fieldName, " && ").concat(fieldValue);
-          fieldInline && (field += " inline");
+          fieldInline && (field += " && inline");
           embed.push("{".concat(field, "}"));
         }
       }
