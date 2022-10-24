@@ -28,7 +28,9 @@ class Output extends React.Component {
     if (authorName) {
       var author = "author: ".concat(authorName);
       authorIconUrl && (author += " && ".concat(authorIconUrl));
-      authorUrl && (author += " && ".concat(authorUrl));
+      if (authorIconUrl){
+        authorUrl && (author += " && ".concat(authorUrl));
+      }
       embed.push("{".concat(author, "}"));
     }
 
@@ -64,11 +66,12 @@ class Output extends React.Component {
     var footerText = e.elements["footer:text"].value,
     footerIconUrl = e.elements["footer:icon_url"].value;
     if (footerText || footerIconUrl) {
-      var footer = "footer: ".concat(footerText, " && ").concat(footerIconUrl);
+      var footer = "footer: ".concat(footerText)
+      footerIconUrl && (footer += " && ".concat(footerIconUrl));
       embed.push("{".concat(footer, "}"));
     }
     
-    timestampChecked && embed.push("{timestamp: ".concat(timestampChecked, "}"));
+    timestampChecked && embed.push("{timestamp}");
     embed = embed.join("$v");
     document.getElementById("embed-output").innerHTML = embed;
 
