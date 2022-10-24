@@ -1,4 +1,3 @@
-<pre>
 # Embed Builder
 - **Build on: https://github.com/TheBastionBot/embedbuilder**
 
@@ -8,4 +7,3 @@
 - What to change when you fork the repo:
 1. `homepage` in `package.json`
 2. `index.html`
-<pre>
